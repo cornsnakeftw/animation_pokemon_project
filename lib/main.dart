@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'counter_cubit.dart';
+import 'cubit.dart';
 
 void main() {
   runApp(const MyApp());
