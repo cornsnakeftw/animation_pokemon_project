@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'animation_controller.dart';
+import 'counter_cubit.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData.dark(),
+      theme: ThemeData(
+        primarySwatch: Colors.pink,
+      ),
       home: SimpleScaleAnimation(),
     );
   }
